@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"ZonaPro ExtraBold"
+}
+.button{
+	display: block;
+	margin: 0 auto;
+	height:90px;
+    width:auto;
+}
+.global{
+	display: flex;
+}
+.logo{
+	z-index: 100;
+	display: flex;
+	margin: 0 auto;
+	height:170px;
+    width:auto;
+}
+.spk{
+	margin-top: 0px;
+	margin-left: 50px;
+}
+.main {
+	position:relative;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bg1 {
+	background-size: cover;
+	position: absolute; top: 20px; left: 50px;
+	display: block;
+	margin: 0 auto;
+	height: 1500px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 110px;
+	width: 94%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+.bg2 {
+	z-index: 100;
+	backg0round-image: url("source/backgraund1.png");
+	background-size: cover;
+	width: 85%;
+	height: 0px;
+	margin-left: 90px;
+	margin-top: 920px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+
+
+	display: flex;
+	justify-content: center;
+}
+.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1500px;
+	width: 95%;
+	margin-left: -40px;
+	margin-top: 30px;
+	border-radius: 50px;
+	
+}
+@media only screen and (max-width: 1700px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:160px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 90px;
+	margin-top: 870px;
+}
+	.bg1 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1400px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 95px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 1600px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:140px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 90px;
+	margin-top: 820px;
+}
+	.bg1 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1300px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 95px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 1500px) {
+		.logo{
+	display: block;
+	margin: 0 auto;
+	height:140px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 90px;
+	margin-top: 750px;
+}
+	.bg1 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1200px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 95px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 1400px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:130px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 60px;
+	margin-top: 690px;
+}
+	.bg1 {
+		position: absolute; top: 20px; left: 35px;
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1100px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 1250px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:120px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 40px;
+	margin-top: 630px;
+}
+	.bg1 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1000px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 1100px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:110px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 40px;
+	margin-top: 560px;
+}
+	.bg1 {
+	background-size: cover;
+		position: absolute; top: 20px; left: 30px;
+	display: block;
+	margin: 0 auto;
+	height: 900px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 950px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:100px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 40px;
+	margin-top: 485px;
+}
+	.bg1 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 770px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 900px) {
+	.logo{
+	display: block;
+	margin: 0 auto;
+	height:100px;
+    width:auto;
+}
+	.bg2 {
+	margin-left: 20px;
+	margin-top: 435px;
+}
+	.bg1 {
+	background-size: cover;
+		position: absolute; top: 20px; left: 20px;
+	display: block;
+	margin: 0 auto;
+	height: 700px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (max-width: 799px) {
+	.logo{
+		position: absolute;
+		top:990px;
+		left:100px;
+	display: block;
+	margin: 0 auto;
+	height:120px;
+    width:auto;
+}
+	.bg1 {
+	background-size: cover;
+	display: none;
+	margin: 0 auto;
+	height: 700px;
+	width: 95%;
+	border-radius: 50px;
+}
+.bg1fx {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	width: 93%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+}
+@media only screen and (min-width: 800px) {
+	.bg22{
+		display: none;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.logo{
+		position: absolute;
+		top:870px;
+		left:90px;
+	display: block;
+	margin: 0 auto;
+	height:100px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1300px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 600px) {
+	.logo{
+		position: absolute;
+		top:760px;
+		left:60px;
+	display: block;
+	margin: 0 auto;
+	height:90px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1150px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 520px) {
+	.logo{
+		position: absolute;
+		top:660px;
+		left:50px;
+	display: block;
+	margin: 0 auto;
+	height:80px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 1000px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 450px) {
+	.logo{
+		position: absolute;
+		top:595px;
+		left:40px;
+	display: block;
+	margin: 0 auto;
+	height:70px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 900px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 400px) {
+	.logo{
+		position: absolute;
+		top:525px;
+		left:48px;
+	display: block;
+	margin: 0 auto;
+	height:60px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 750px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
+@media only screen and (max-width: 350px) {
+	.logo{
+		position: absolute;
+		top:460px;
+		left:50px;
+	display: block;
+	margin: 0 auto;
+	height:50px;
+    width:auto;
+}
+	.bg22 {
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+	height: 650px;
+	width: 95%;
+	border-radius: 50px;
+		margin-left: -40px;
+	margin-top: 30px;
+}
+}
